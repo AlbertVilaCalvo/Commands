@@ -1,4 +1,8 @@
 
+# Merge changes from to master remote without switching to master
+
+// TODO
+
 # GitHub pull requests
 
 ```
@@ -15,4 +19,13 @@ git merge upstream/master
 git push origin master
 ````
 
+# Misc
+
+## Always use annotated tags
+
+```
+git tag -a v1.0
+````
+
+They have extra information like author, date, sha and message.
 
