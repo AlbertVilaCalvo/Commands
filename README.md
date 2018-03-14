@@ -1,11 +1,11 @@
 ## Undo
 
 ```
-git reset --soft HEAD^   # keep changes
-git reset --hard HEAD^   # discard changes
+git reset --soft HEAD^   # keeps changes
+git reset --hard HEAD^   # discards changes
 ```
 
-https://stackoverflow.com/a/6376039/4034572
+[source](https://stackoverflow.com/a/6376039/4034572)
 
 ### Undo a public commit
 
