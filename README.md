@@ -44,4 +44,4 @@ git push origin master
 git tag -a v1.0
 ````
 
-They have extra information like author, date, sha and message.
+They have extra information like author, date, SHA and message.
