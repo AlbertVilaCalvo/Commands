@@ -38,6 +38,12 @@ git push origin master
 
 ## Misc
 
+### Prune
+
+```
+git remote prune origin
+```
+
 ### Always use annotated tags
 
 ```
