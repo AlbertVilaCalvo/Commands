@@ -45,8 +45,9 @@ git remote prune origin
 ```
 git checkout your-branch
 git reset $(git merge-base master your-branch)
-commit...
 ```
+This leaves all changes on the branch at the staging area. Then you can `git add .` and `git commit`.
+
 [source](https://stackoverflow.com/a/25357146/4034572)
 
 
