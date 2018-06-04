@@ -12,9 +12,15 @@ git revert HEAD
 ```
 
 
-## Merge changes from to master remote without switching to master
-// TODO
-
+## Merge changes from remote master branch to a feature branch without switching to master
+```
+> git checkout some-branch
+> git fetch origin # gets you up to date with origin by getting all commits on all branches, but named 'origin/branch'
+> git merge origin/master # brings all commits in 'origin/master' to whatever branch we are; we could use --ff-only
+> git fetch origin master:master # update master if we have a feature branch checked out
+```
+[source-part-1](https://stackoverflow.com/a/20103414/4034572)
+[source-part-2](https://stackoverflow.com/a/17722977/4034572)
 
 ## GitHub pull requests
 ```
