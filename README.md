@@ -63,3 +63,10 @@ git tag -a v1.0
 ````
 
 They have extra information like author, date, SHA and message.
+
+### Search string in all git history
+```
+git log -Spassword
+```
+
+[source](https://stackoverflow.com/a/4472267/4034572)
