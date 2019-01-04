@@ -62,7 +62,7 @@ This leaves all changes on the branch at the staging area. Then you can `git add
 git tag -a v1.0
 ````
 
-They have extra information like author, date, SHA and message.
+They have extra information like author, date, SHA and message ([more info](https://stackoverflow.com/q/4971746/4034572)).
 
 ### Search string in all git history
 ```
