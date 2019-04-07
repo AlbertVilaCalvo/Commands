@@ -1,9 +1,10 @@
-Just a few commands :)
+Just a few commands
 
 * [Git](#Git)
 * [npm](#npm)
 * [Yarn](#Yarn)
 * [Homebrew](#Homebrew)
+* [Links](#Links)
 
 # Git
 
@@ -79,3 +80,34 @@ git log -Spassword
 ```
 
 [source](https://stackoverflow.com/a/4472267/4034572)
+
+
+# npm
+
+
+
+# Yarn
+
+To upgrade yarn itself use Homebrew!
+
+List global packages:
+
+`yarn global list`
+
+Upgrade global packages one by one:
+
+`yarn global upgrade-interactive`
+
+(lists all packages and versions and allows to choose)
+
+Upgrade global packages all at once:
+
+`yarn global upgrade`
+
+Remove global package:
+
+`yarn global remove <package-name>`
+
+
+# Homebrew
+
