@@ -6,6 +6,8 @@ Just a few commands ;)
 * [Homebrew](#Homebrew)
 * [Links](#Links)
 
+man pages: https://tldr.sh/
+
 # Git
 
 ## Undo
@@ -125,4 +127,6 @@ Remove global package:
 
 
 # Homebrew
+
+https://docs.brew.sh/FAQ
 
