@@ -84,6 +84,21 @@ git log -Spassword
 
 # npm
 
+Upgrade npm itself:
+
+`npm install -g npm`
+
+List global pacakges:
+
+`npm list -g --depth=0`
+
+List outdated global packages:
+
+`npm outdated -g`
+
+Upgrade global package:
+
+`npm update -g somepackage`
 
 
 # Yarn
