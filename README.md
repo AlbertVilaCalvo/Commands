@@ -1,3 +1,12 @@
+Just a few commands :)
+
+* [Git](#Git)
+* [npm](#npm)
+* [Yarn](#Yarn)
+* [Homebrew](#Homebrew)
+
+# Git
+
 ## Undo
 ```
 git reset --soft HEAD^   # keeps changes
@@ -35,7 +44,7 @@ git log --oneline --graph --decorate --all
 git checkout master
 git merge upstream/master
 git push origin master
-````
+```
 
 
 ## Misc
@@ -60,7 +69,7 @@ This leaves all changes on the branch at the staging area. Then you can `git add
 ### Always use annotated tags
 ```
 git tag -a v1.0
-````
+```
 
 They have extra information like author, date, SHA and message ([more info](https://stackoverflow.com/q/4971746/4034572)).
 
