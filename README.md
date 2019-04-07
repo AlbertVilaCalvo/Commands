@@ -1,4 +1,4 @@
-Just a few commands
+Just a few commands ;)
 
 * [Git](#Git)
 * [npm](#npm)
