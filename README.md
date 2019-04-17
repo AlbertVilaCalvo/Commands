@@ -98,9 +98,17 @@ List outdated global packages:
 
 `npm outdated -g`
 
+Add global package:
+
+`npm install -g <package_name>`
+
 Upgrade global package:
 
-`npm update -g somepackage`
+`npm update -g <package_name>`
+
+Remove global package:
+
+`npm uninstall -g <package_name>`
 
 
 # Yarn
@@ -110,6 +118,10 @@ To upgrade yarn itself use Homebrew!
 List global packages:
 
 `yarn global list`
+
+Add global package:
+
+`yarn global add <package_name>`
 
 Upgrade global packages one by one:
 
@@ -123,7 +135,7 @@ Upgrade global packages all at once:
 
 Remove global package:
 
-`yarn global remove <package-name>`
+`yarn global remove <package_name>`
 
 
 # Homebrew
