@@ -4,7 +4,7 @@ Just a few commands ;)
 * [npm](#npm)
 * [Yarn](#Yarn)
 * [Homebrew](#Homebrew)
-* [Links](#Links)
+* [Oh My Zsh](#Oh-My-Zsh)
 
 man pages: https://tldr.sh/
 
@@ -142,3 +142,6 @@ Remove global package:
 
 https://docs.brew.sh/FAQ
 
+# Oh My Zsh
+
+Upgrade: just type `upgrade_oh_my_zsh` :)
