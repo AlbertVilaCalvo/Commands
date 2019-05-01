@@ -5,6 +5,7 @@ Just a few commands ;)
 * [Yarn](#Yarn)
 * [Homebrew](#Homebrew)
 * [Oh My Zsh](#Oh-My-Zsh)
+* [Android](#Android)
 
 man pages: https://tldr.sh/
 
@@ -142,6 +143,14 @@ Remove global package:
 
 https://docs.brew.sh/FAQ
 
+
 # Oh My Zsh
 
 Upgrade: just type `upgrade_oh_my_zsh` :)
+
+
+# Android
+
+List emulators: `emulator -list-avds`
+
+Launch emulator: `${ANDROID_HOME}/emulator/emulator -avd Nexus_5X_API_27_-_Google_Play &`
