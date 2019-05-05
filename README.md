@@ -143,6 +143,13 @@ Remove global package:
 
 https://docs.brew.sh/FAQ
 
+```
+brew update
+brew outdated
+brew upgrade
+brew cleanup
+```
+
 
 # Oh My Zsh
 
