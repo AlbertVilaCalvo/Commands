@@ -79,7 +79,7 @@ They have extra information like author, date, SHA and message ([more info](http
 
 ### Search string in all git history
 ```
-git log -Spassword
+git log -S something
 ```
 
 [source](https://stackoverflow.com/a/4472267/4034572)
