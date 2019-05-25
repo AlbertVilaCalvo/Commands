@@ -150,6 +150,19 @@ brew upgrade
 brew cleanup
 ```
 
+## Fix `zsh: command not found: yarn`
+
+Run `brew doctor`. If you see:
+
+```
+Warning: You have unlinked kegs in your Cellar.
+Leaving kegs unlinked can lead to build-trouble and cause brews that depend on
+those kegs to fail to run properly once built. Run `brew link` on these:
+  yarn
+```
+
+Then run `brew link yarn`, which fixes the issue.
+
 
 # Oh My Zsh
 
