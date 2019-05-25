@@ -6,6 +6,7 @@ Just a few commands ;)
 * [Homebrew](#Homebrew)
 * [Oh My Zsh](#Oh-My-Zsh)
 * [Android](#Android)
+* [React Native](#React-Native)
 
 man pages: https://tldr.sh/
 
@@ -174,3 +175,8 @@ Upgrade: just type `upgrade_oh_my_zsh` :)
 List emulators: `emulator -list-avds`
 
 Launch emulator: `${ANDROID_HOME}/emulator/emulator -avd Nexus_5X_API_27_-_Google_Play &`
+
+
+# React Native
+
+Show dev menu: `adb shell input keyevent 82` or `adb shell input keyevent KEYCODE_MENU`
