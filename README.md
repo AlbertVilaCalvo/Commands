@@ -36,7 +36,12 @@ git revert HEAD
 [source-part-1](https://stackoverflow.com/a/20103414/4034572)
 [source-part-2](https://stackoverflow.com/a/17722977/4034572)
 
-## GitHub pull requests
+## GitHub pull request
+
+https://gist.github.com/Chaser324/ce0505fbed06b947d962
+
+http://blog.davidecoppola.com/2016/11/howto-contribute-to-open-source-project-on-github/
+
 ```
 git remote add upstream git@github.com:Kotlin/kotlinx.coroutines.git
 ```
