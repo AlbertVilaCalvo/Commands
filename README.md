@@ -59,6 +59,11 @@ git push origin master
 
 ## Misc
 
+### Remove untracked files
+```
+git clean -f -d
+```
+
 
 ### Prune
 ```
