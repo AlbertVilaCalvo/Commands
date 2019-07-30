@@ -135,11 +135,9 @@ Add global package:
 
 `yarn global add <package_name>`
 
-Upgrade global packages one by one:
+Upgrade global packages one by one (lists all packages and versions and allows to choose):
 
 `yarn global upgrade-interactive`
-
-(lists all packages and versions and allows to choose)
 
 Upgrade global packages all at once:
 
@@ -148,6 +146,10 @@ Upgrade global packages all at once:
 Remove global package:
 
 `yarn global remove <package_name>`
+
+Know which version of a package you are using:
+
+`yarn list @react-native-community/cli`
 
 
 # Homebrew
