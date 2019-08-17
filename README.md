@@ -157,7 +157,7 @@ Know which version of a package you are using:
 https://docs.brew.sh/FAQ
 
 ```
-brew update
+brew update [--debug --verbose]
 brew outdated
 brew upgrade
 brew cleanup
