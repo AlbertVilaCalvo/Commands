@@ -112,15 +112,15 @@ List outdated global packages:
 
 Add global package:
 
-`npm install -g <package_name>`
+`npm install -g <package>`
 
 Upgrade global package:
 
-`npm update -g <package_name>`
+`npm update -g <package>`
 
 Remove global package:
 
-`npm uninstall -g <package_name>`
+`npm uninstall -g <package>`
 
 
 # Yarn
@@ -133,7 +133,7 @@ List global packages:
 
 Add global package:
 
-`yarn global add <package_name>`
+`yarn global add <package>`
 
 Upgrade global packages one by one (lists all packages and versions and allows to choose):
 
@@ -145,7 +145,7 @@ Upgrade global packages all at once:
 
 Remove global package:
 
-`yarn global remove <package_name>`
+`yarn global remove <package>`
 
 Know which version of a package you are using:
 
