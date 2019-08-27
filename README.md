@@ -176,6 +176,15 @@ those kegs to fail to run properly once built. Run `brew link` on these:
 
 Then run `brew link yarn`, which fixes the issue.
 
+## Cask
+
+List of commands: https://github.com/Homebrew/homebrew-cask/blob/master/USAGE.md
+
+```
+brew cask list
+brew cask install <package>
+```
+
 
 # Oh My Zsh
 
