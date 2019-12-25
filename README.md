@@ -102,6 +102,8 @@ Upgrade npm itself:
 
 `npm install -g npm`
 
+(If this command fails and we then get `zsh: command not found: npm` we can fix it with `brew reinstall node`.)
+
 List global pacakges:
 
 `npm list -g --depth=0`
@@ -157,7 +159,7 @@ Know which version of a package you are using:
 https://docs.brew.sh/FAQ
 
 ```
-brew update [--debug --verbose]
+brew update --debug --verbose
 brew outdated
 brew upgrade
 brew cleanup
