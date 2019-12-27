@@ -139,7 +139,7 @@ Add global package:
 
 Upgrade global packages one by one (lists all packages and versions and allows to choose):
 
-`yarn global upgrade-interactive`
+`yarn global upgrade-interactive --latest`
 
 Upgrade global packages all at once:
 
