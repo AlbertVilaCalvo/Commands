@@ -183,8 +183,10 @@ Then run `brew link yarn`, which fixes the issue.
 List of commands: https://github.com/Homebrew/homebrew-cask/blob/master/USAGE.md
 
 ```
-brew cask list
 brew cask install <package>
+brew cask list
+brew cask outdated
+brew cask upgrade
 ```
 
 
