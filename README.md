@@ -176,7 +176,7 @@ those kegs to fail to run properly once built. Run `brew link` on these:
   yarn
 ```
 
-Then run `brew link yarn`, which fixes the issue.
+Then run `brew link yarn`, which may fix the issue. If you then get `Error: Could not symlink bin/yarn. Target /usr/local/bin/yarn already exists.`, then follow the instructions or run `brew link --overwrite yarn`.
 
 ## Cask
 
