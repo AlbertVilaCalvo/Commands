@@ -127,7 +127,17 @@ Remove global package:
 
 # Yarn
 
-To upgrade yarn itself use Homebrew!
+To upgrade yarn itself use Homebrew.
+
+Know which version of a package you are using:
+
+`yarn list @react-native-community/cli`
+
+Upgrade all packages to latest:
+
+`yarn upgrade --latest`
+
+## Global
 
 List global packages:
 
@@ -148,10 +158,6 @@ Upgrade global packages all at once:
 Remove global package:
 
 `yarn global remove <package>`
-
-Know which version of a package you are using:
-
-`yarn list @react-native-community/cli`
 
 
 # Homebrew
