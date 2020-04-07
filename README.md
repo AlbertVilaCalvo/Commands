@@ -88,9 +88,10 @@ git tag -a v1.0
 
 They have extra information like author, date, SHA and message ([more info](https://stackoverflow.com/q/4971746/4034572)).
 
-### Search string in all git history
+### Search string on git history
 ```
 git log -S something
+git log -p -S something
 ```
 
 [source](https://stackoverflow.com/a/4472267/4034572)
