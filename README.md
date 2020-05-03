@@ -7,6 +7,7 @@ Just a few commands ;)
 * [Oh My Zsh](#Oh-My-Zsh)
 * [Android](#Android)
 * [React Native](#React-Native)
+* [hosts file](#hosts-file)
 
 man pages: https://tldr.sh/
 
@@ -212,3 +213,12 @@ Launch emulator: `${ANDROID_HOME}/emulator/emulator -avd Nexus_5X_API_27_-_Googl
 # React Native
 
 Show dev menu: `adb shell input keyevent 82` or `adb shell input keyevent KEYCODE_MENU`
+
+# hosts file
+
+https://github.com/StevenBlack/hosts
+
+```
+cd ~/Informàtica/hosts
+python3 updateHostsFile.py --backup
+```
