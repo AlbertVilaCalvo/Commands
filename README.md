@@ -216,9 +216,12 @@ Show dev menu: `adb shell input keyevent 82` or `adb shell input keyevent KEYCOD
 
 # hosts file
 
+`hosts` file is located in `/private/etc`
+
 https://github.com/StevenBlack/hosts
 
 ```
 cd ~/Informàtica/hosts
+ggpull
 python3 updateHostsFile.py --backup
 ```
