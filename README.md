@@ -188,6 +188,18 @@ those kegs to fail to run properly once built. Run `brew link` on these:
 
 Then run `brew link yarn`, which may fix the issue. If you then get `Error: Could not symlink bin/yarn. Target /usr/local/bin/yarn already exists.`, then follow the instructions or run `brew link --overwrite yarn`.
 
+## Fix not using the latest yarn version installed by brew
+
+If `brew info yarn` gives a different (higher) version than `yarn -v` then run `brew link --overwrite yarn`. If you then see:
+
+```
+Warning: Already linked: /usr/local/Cellar/yarn/1.22.4
+To relink:
+  brew unlink yarn && brew link yarn
+```
+
+Then run `brew unlink yarn && brew link yarn`. If you then see `Error: Could not symlink bin/yarn. Target /usr/local/bin/yarn already exists.`, then follow the instructions or run `brew link --overwrite yarn`.
+
 ## Cask
 
 List of commands: https://github.com/Homebrew/homebrew-cask/blob/master/USAGE.md
