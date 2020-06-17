@@ -75,7 +75,7 @@ git remote prune origin
 ### Squash all commits on a branch
 ```
 git checkout your-branch
-git reset $(git merge-base master your-branch)
+git reset $(git merge-base master-or-develop your-branch-name)
 ```
 This leaves all changes on the branch at the staging area. Then you can `git add .` and `git commit`.
 
