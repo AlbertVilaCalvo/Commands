@@ -257,6 +257,10 @@ https://docs.gradle.org/current/userguide/userguide.html
 
 https://docs.gradle.org/current/userguide/command_line_interface.html
 
-List tasks: `./gradlew tasks`
+Basic help: `./gradlew help`
 
-./gradlew Task :help
+CLI options/help: `./gradlew --help`
+
+List tasks: `./gradlew tasks` or `./gradlew Task :help`
+
+Task help: `./gradlew help --task <taskname>`
