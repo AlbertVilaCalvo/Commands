@@ -263,9 +263,11 @@ Basic help: `./gradlew help`
 
 CLI options/help: `./gradlew --help`
 
-List tasks: `./gradlew tasks` or `./gradlew Task :help`. Important: to see custom tasks we need to do `./gradlew tasks --all`.
+List tasks: `./gradlew tasks` or `./gradlew Task :help`. Note that this does not list all the tasks. To see 'Other tasks' run `./gradlew tasks --all`.
 
-Task help: `./gradlew help --task <taskname>`
+Run task: `./gradlew <task>`. To see what it would do if run do `./gradlew <task> --dry-run`, which shows the tasks dependencies that would be executed.
+
+Task help: `./gradlew help --task <task>`
 
 ## Daemon
 
