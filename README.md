@@ -253,9 +253,11 @@ python3 updateHostsFile.py --backup
 
 # Gradle
 
-https://docs.gradle.org/current/userguide/userguide.html
+Docs: https://docs.gradle.org/current/userguide/userguide.html
 
-https://docs.gradle.org/current/userguide/command_line_interface.html
+DSL reference: https://docs.gradle.org/current/dsl/index.html
+
+CLI: https://docs.gradle.org/current/userguide/command_line_interface.html
 
 Basic help: `./gradlew help`
 
@@ -270,5 +272,7 @@ Task help: `./gradlew help --task <taskname>`
 https://docs.gradle.org/current/userguide/gradle_daemon.html
 
 Enabled by default since 3.X. Always enable the daemon since it makes builds start faster (JVM startup time is bad). To do so add `org.gradle.daemon=true` to `gradle.properties`.
+
+> Gradle will kill any Daemon that has been idle for 3 hours or more, so you don’t have to worry about cleaning them up manually.
 
 List daemons: `./gradlew --status`
