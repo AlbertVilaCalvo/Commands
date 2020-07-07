@@ -261,6 +261,14 @@ Basic help: `./gradlew help`
 
 CLI options/help: `./gradlew --help`
 
-List tasks: `./gradlew tasks` or `./gradlew Task :help`
+List tasks: `./gradlew tasks` or `./gradlew Task :help`. Important: to see custom tasks we need to do `./gradlew tasks --all`.
 
 Task help: `./gradlew help --task <taskname>`
+
+## Daemon
+
+https://docs.gradle.org/current/userguide/gradle_daemon.html
+
+Enabled by default since 3.X. Always enable the daemon since it makes builds start faster (JVM startup time is bad). To do so add `org.gradle.daemon=true` to `gradle.properties`.
+
+List daemons: `./gradlew --status`
