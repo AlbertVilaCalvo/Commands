@@ -8,6 +8,7 @@ Just a few commands ;)
 * [Android](#Android)
 * [React Native](#React-Native)
 * [hosts file](#hosts-file)
+* [Gradle](#gradle)
 
 man pages: https://tldr.sh/
 
@@ -249,3 +250,13 @@ cd ~/Informàtica/hosts
 ggpull
 python3 updateHostsFile.py --backup
 ```
+
+# Gradle
+
+https://docs.gradle.org/current/userguide/userguide.html
+
+https://docs.gradle.org/current/userguide/command_line_interface.html
+
+List tasks: `./gradlew tasks`
+
+./gradlew Task :help
