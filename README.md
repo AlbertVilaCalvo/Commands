@@ -223,6 +223,16 @@ List emulators: `emulator -list-avds`
 
 Launch emulator: `${ANDROID_HOME}/emulator/emulator -avd Nexus_5X_API_27_-_Google_Play &`
 
+## Test deep links
+
+https://developer.android.com/training/app-links/deep-linking#testing-filters
+
+`adb shell am start -W -a android.intent.action.VIEW -d "appvp://home/4" com.example.debug`
+
+If you have multiple emulators then add '-s emulator-name', like this:
+
+`adb -s emulator-5554 shell am start -W -a android.intent.action.VIEW -d "appvp://home/4" com.example.debug`
+
 
 # React Native
 
