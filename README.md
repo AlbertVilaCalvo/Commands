@@ -269,6 +269,14 @@ Run task: `./gradlew <task>`. To see what it would do if run do `./gradlew <task
 
 Task help: `./gradlew help --task <task>`
 
+# Profile
+
+About `--profile` on the [docs](https://docs.gradle.org/current/userguide/command_line_interface.html#sec:command_line_performance):
+
+>  Generates a high-level performance report in the `$buildDir/reports/profile` directory. `--scan` is preferred.
+
+You can do `./gradlew --profile` or `./gradlew clean build --profile`. On Android you can do `./gradlew assembleDebug --profile`.
+
 ## Daemon
 
 https://docs.gradle.org/current/userguide/gradle_daemon.html
