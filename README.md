@@ -271,7 +271,15 @@ Run task: `./gradlew <task>`. To see what it would do if run do `./gradlew <task
 
 Task help: `./gradlew help --task <task>`
 
-# Profile
+## Clean
+
+`./gradlew clean`
+
+`./gradlew cleanBuildCache` -> Doesn't work on Android - https://stackoverflow.com/a/43245885/4034572
+
+`rm -rf ~/.gradle/caches/build-cache-*` -> When clean and 'Invalidate Caches / Restart' don't work
+
+## Profile
 
 About `--profile` on the [docs](https://docs.gradle.org/current/userguide/command_line_interface.html#sec:command_line_performance):
 
