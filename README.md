@@ -38,6 +38,18 @@ git revert HEAD
 [source-part-1](https://stackoverflow.com/a/20103414/4034572)
 [source-part-2](https://stackoverflow.com/a/17722977/4034572)
 
+## Revert the changes done on a file (or files) in a branch, so that it's content is the same than develop or master
+
+`git checkout <branch> -- <filename>`
+
+Eg: `git checkout develop -- buildsystem/versions.gradle`
+
+This leaves in the staging area the changes that bring the file to the same contents than develop. You need to commit then.
+
+Note that you can put as many files as you want: `git checkout <branch> -- <filename> ... <filename>`
+
+[source1](https://stackoverflow.com/q/215718/4034572) [source2](https://stackoverflow.com/q/1817766/4034572)
+
 ## GitHub pull request
 
 https://gist.github.com/Chaser324/ce0505fbed06b947d962
