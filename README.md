@@ -262,8 +262,10 @@ https://github.com/StevenBlack/hosts
 ```
 cd ~/Informàtica/hosts
 ggpull
-python3 updateHostsFile.py --backup
+python3 updateHostsFile.py [--backup]
 ```
+
+If an error like "ModuleNotFoundError: No module named 'lxml'" is thrown when running `updateHostsFile.py`, then install the required dependencies by following [Generate your own unified hosts file](https://github.com/StevenBlack/hosts#generate-your-own-unified-hosts-file).
 
 # Gradle
 
