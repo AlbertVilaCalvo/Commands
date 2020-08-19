@@ -21,12 +21,10 @@ git reset --hard HEAD^   # discards changes
 ```
 [source](https://stackoverflow.com/a/6376039/4034572)
 
-
 ### Undo a public commit
 ```
 git revert HEAD
 ```
-
 
 ## Merge changes from remote master branch to a feature branch without switching to master
 ```
@@ -50,6 +48,14 @@ Note that you can put as many files as you want: `git checkout <branch> -- <file
 
 [source1](https://stackoverflow.com/q/215718/4034572) [source2](https://stackoverflow.com/q/1817766/4034572)
 
+## View file line history/changes
+
+Show the changes from line 135 to 140:
+
+`git log --pretty=short -u -L 135,140:file/path/something.txt`
+
+[source](https://stackoverflow.com/a/19757493/4034572)
+
 ## GitHub pull request
 
 https://gist.github.com/Chaser324/ce0505fbed06b947d962
@@ -65,7 +71,7 @@ git remote add upstream git@github.com:Kotlin/kotlinx.coroutines.git
 ```
 git fetch upstream master
 git log --oneline --graph --decorate --all
-git checkout master
+git checkout master`
 git merge upstream/master
 git push origin master
 ```
