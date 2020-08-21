@@ -244,6 +244,10 @@ List emulators running ('List of devices attached'): `adb devices`
 
 Launch emulator: `${ANDROID_HOME}/emulator/emulator -avd Nexus_5X_API_27_-_Google_Play &`
 
+Emulator show touches: `adb shell settings put system show_touches 1`
+
+Emulator hide touches: `adb shell settings put system show_touches 0`
+
 ## Test deep links
 
 https://developer.android.com/training/app-links/deep-linking#testing-filters
