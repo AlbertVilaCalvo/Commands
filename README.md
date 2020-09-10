@@ -225,9 +225,9 @@ List of commands: https://github.com/Homebrew/homebrew-cask/blob/master/USAGE.md
 
 ```
 brew cask install <package>
-brew cask list
-brew cask outdated
-brew cask upgrade
+brew list --cask
+brew outdated --cask
+brew upgrade --cask
 ```
 
 
