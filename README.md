@@ -91,6 +91,15 @@ git remote prune origin
 ```
 
 
+### See commit differences between two branches
+```
+git log master..feature-branch
+```
+If you've already switched to `feature-branch` you can use `git log master..`.
+
+[source](https://stackoverflow.com/q/13965391/4034572)
+
+
 ### Squash all commits on a branch
 ```
 git checkout your-branch
