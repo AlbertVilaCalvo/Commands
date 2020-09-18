@@ -242,7 +242,7 @@ brew upgrade --cask
 
 # Oh My Zsh
 
-Upgrade: just type `upgrade_oh_my_zsh` :)
+Upgrade: `omz update`
 
 
 # Android
