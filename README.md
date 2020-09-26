@@ -128,9 +128,13 @@ git log -p -S something
 
 # npm
 
+CLI docs: https://docs.npmjs.com/cli-documentation/
+
+Tip: `npm run` lists all the executable commands/scripts.
+
 Upgrade npm itself:
 
-`npm install -g npm`
+`npm install npm@latest -g`
 
 (If this command fails and we then get `zsh: command not found: npm` we can fix it with `brew reinstall node`.)
 
@@ -156,6 +160,10 @@ Remove global package:
 
 
 # Yarn
+
+CLI docs: https://classic.yarnpkg.com/en/docs/cli/
+
+Tip: `yarn run` lists all the executable commands/scripts.
 
 To upgrade yarn itself use Homebrew.
 
