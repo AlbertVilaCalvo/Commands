@@ -66,7 +66,6 @@ http://blog.davidecoppola.com/2016/11/howto-contribute-to-open-source-project-on
 git remote add upstream git@github.com:Kotlin/kotlinx.coroutines.git
 ```
 
-
 ### Incorporating upstream changes
 ```
 git fetch upstream master
@@ -76,7 +75,6 @@ git merge upstream/master
 git push origin master
 ```
 
-
 ## Misc
 
 ### Remove untracked files
@@ -84,12 +82,10 @@ git push origin master
 git clean -f -d
 ```
 
-
 ### Prune
 ```
 git remote prune origin
 ```
-
 
 ### See commit differences between two branches
 ```
@@ -99,7 +95,6 @@ If you've already switched to `feature-branch` you can use `git log master..`.
 
 [source](https://stackoverflow.com/q/13965391/4034572)
 
-
 ### Squash all commits on a branch
 ```
 git checkout your-branch
@@ -108,7 +103,6 @@ git reset $(git merge-base master-or-develop your-branch-name)
 This leaves all changes on the branch at the staging area. Then you can `git add .` and `git commit`.
 
 [source](https://stackoverflow.com/a/25357146/4034572)
-
 
 ### Always use annotated tags
 ```
@@ -124,6 +118,12 @@ git log -p -S something
 ```
 
 [source](https://stackoverflow.com/a/4472267/4034572)
+
+### Remove carriage return
+
+If you see `^M` run `sed -i.bak $'s/\r//' filename`.
+
+[source](https://stackoverflow.com/a/21622340/4034572)
 
 
 # npm
@@ -280,6 +280,7 @@ If you have multiple emulators then add '-s emulator-name', like this:
 
 Show dev menu: `adb shell input keyevent 82` or `adb shell input keyevent KEYCODE_MENU`
 
+
 # hosts file
 
 `hosts` file is located in `/private/etc`
@@ -293,6 +294,7 @@ python3 updateHostsFile.py [--backup]
 ```
 
 If an error like "ModuleNotFoundError: No module named 'lxml'" is thrown when running `updateHostsFile.py`, then install the required dependencies by following [Generate your own unified hosts file](https://github.com/StevenBlack/hosts#generate-your-own-unified-hosts-file).
+
 
 # Gradle
 
