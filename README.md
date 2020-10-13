@@ -320,7 +320,7 @@ Task help: `./gradlew help --task <task>`
 
 `rm -rf ~/.gradle/caches/build-cache-*` -> When clean and 'Invalidate Caches / Restart' don't work
 
-`rm -rf .gradle/*` -> Clear local .gradle folders (we can find them with `find . -type d -name ".gradle"`)
+`find . -type d -name ".gradle" -exec rm -rf {} +` -> Clear local .gradle folders
 
 https://github.com/rock3r/deep-clean
 
