@@ -104,6 +104,12 @@ This leaves all changes on the branch at the staging area. Then you can `git add
 
 [source](https://stackoverflow.com/a/25357146/4034572)
 
+### Stash with message
+```
+git stash push -m "Some message"
+```
+https://git-scm.com/docs/git-stash
+
 ### Always use annotated tags
 ```
 git tag -a v1.0
