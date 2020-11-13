@@ -127,7 +127,7 @@ git log -p -S something
 
 ### Remove carriage return
 
-If you see `^M` run `sed -i.bak $'s/\r//' filename`.
+If you see `^M` run `sed -i.bak $'s/\r//' filename` (with backup) or `sed -i '' -e $'s/\r//' filename` (no backup).
 
 [source](https://stackoverflow.com/a/21622340/4034572)
 
