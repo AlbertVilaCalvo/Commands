@@ -318,6 +318,16 @@ Basic help: `./gradlew help`
 
 CLI options/help: `./gradlew --help`
 
+## Wrapper
+
+Upgrade the wrapper: `./gradlew wrapper --gradle-version=6.7.1`
+
+This updates gradlew, gradlew.bat, gradle/wrapper/gradle-wrapper.jar and gradle/wrapper/gradle-wrapper.properties.
+
+After upgrading `./gradlew --version` should show the new version.
+
+## Tasks
+
 List tasks: `./gradlew tasks` or `./gradlew Task :help`. Note that this does not list all the tasks. To see 'Other tasks' run `./gradlew tasks --all`.
 
 Run task: `./gradlew <task>`. To see what it would do if run do `./gradlew <task> --dry-run`, which shows the tasks dependencies that would be executed.
