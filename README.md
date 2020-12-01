@@ -342,13 +342,34 @@ Task help: `./gradlew help --task <task>`
 
 `./gradlew clean`
 
-`./gradlew cleanBuildCache` -> Doesn't work on Android - https://stackoverflow.com/a/43245885/4034572
+`./gradlew cleanBuildCache` - [Doesn't work on Android](https://stackoverflow.com/a/43245885/4034572)
 
-`rm -rf ~/.gradle/caches/build-cache-*` -> When clean and 'Invalidate Caches / Restart' don't work
+Clear Gradle global cache (when clean and 'Invalidate Caches / Restart' don't work):
+```
+ls ~/.gradle/caches/
+rm -rf ~/.gradle/caches/build-cache-*
+```
 
-`find . -type d -name ".gradle" -exec rm -rf {} +` -> Clear local .gradle folders
+Clear local .gradle folders:
+```
+find . -type d -name ".gradle"
+find . -type d -name ".gradle" -exec rm -rf {} +
+```
+
+### Deep clean
 
 https://github.com/rock3r/deep-clean
+
+```
+find . -type d -name "build"
+find . -type d -name "build" -exec rm -rf {} +
+
+find . -type f -name "*.iml"
+find . -type f -name "*.iml" -exec rm -rf {} +
+
+find . -type d -name ".idea"
+find . -type d -name ".idea" -exec rm -rf {} +
+```
 
 ## Profile
 
