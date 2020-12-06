@@ -9,6 +9,7 @@ Just a few commands ;)
 * [React Native](#React-Native)
 * [hosts file](#hosts-file)
 * [Gradle](#gradle)
+* [Prettier](#prettier)
 
 man pages: https://tldr.sh/
 
@@ -394,3 +395,48 @@ Kill daemons: `./gradlew --stop`
 https://docs.gradle.org/current/userguide/gradle_daemon.html#sec:how_can_i_stop_a_daemon
 
 > Daemon processes will automatically terminate themselves after 3 hours of inactivity or less. If you wish to stop a Daemon process before this, you can either kill the process via your operating system or run the `gradle --stop` command. The `--stop` switch causes Gradle to request that all running Daemon processes, _of the same Gradle version used to run the command_, terminate themselves.
+
+
+# Prettier
+
+https://prettier.io/docs/en/install.html
+
+```
+npm install --save-dev --save-exact prettier
+
+echo {}> .prettierrc.json
+
+touch .prettierignore
+```
+
+> Tip! Base your .prettierignore on .gitignore and .eslintignore.
+
+Note that it ignores files located in `node_modules` directory - [docs](https://prettier.io/docs/en/cli.html#--with-node-modules)
+
+Run: `npx prettier --write .`
+
+Check: `npx prettier --check .`
+
+## Options
+
+```
+{
+  "semi": false,
+  "singleQuote": true
+}
+```
+
+`semi: false` - Only add semicolons at the beginning of lines that may introduce ASI failures - [docs](https://prettier.io/docs/en/options.html#semicolons)
+
+`singleQuote: true` - Chooses the one which results in the fewest number of escapes, but in case of a tie or the string not containing any quotes, defaults to _single_ quotes - [docs](https://prettier.io/docs/en/options.html#quotes) - [rationale](https://prettier.io/docs/en/rationale.html#strings)
+
+## WebStorm setup
+
+https://prettier.io/docs/en/webstorm.html
+
+https://www.jetbrains.com/help/webstorm/prettier.html
+
+Go to Preferences | Languages and Frameworks | JavaScript | Prettier.
+Check 'On code reformat' and 'On save'. Modify glob pattern to `{**/*,*}.{js,ts,jsx,tsx,css,json}`.
+
+Reformat with Prettier: ⌥⇧⌘P
