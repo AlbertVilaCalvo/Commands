@@ -296,7 +296,7 @@ Note: you need to use the `${ANDROID_SDK_ROOT}/emulator/emulator`, like this:
 
 `${ANDROID_SDK_ROOT}/emulator/emulator -avd Pixel_2_API_19_4.4_KitKat_-_1080x1920_5inch_xxhdpi -writable-system &`
 
-where `ANDROID_SDK_ROOT` is `/Users/albert/Library/Android/sdk`.
+where `ANDROID_SDK_ROOT` is `/Users/albert/Library/Android/sdk` [source](https://stackoverflow.com/a/52496987/4034572)
 
 
 # React Native
