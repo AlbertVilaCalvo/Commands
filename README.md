@@ -402,7 +402,11 @@ Enabled by default since 3.X. Always enable the daemon since it makes builds sta
 
 List daemons: `./gradlew --status`
 
+Alternatively, you can also view the Gradle daemons by printing out all the java processes on the system and the process id ([source](https://runningcode.github.io/gradle-doctor/java-home/#view-all-gradle-daemons)): `jps`
+
 Kill daemons: `./gradlew --stop`
+
+Note that this kills daemons for the with the current Gradle version ([source](https://runningcode.github.io/gradle-doctor/java-home/#killing-gradle-daemons)). To kill all daemons regardless of version do `pkill -f '.*GradleDaemon.*'`.
 
 https://docs.gradle.org/current/userguide/gradle_daemon.html#sec:how_can_i_stop_a_daemon
 
