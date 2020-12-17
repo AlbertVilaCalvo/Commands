@@ -392,6 +392,12 @@ About `--profile` on the [docs](https://docs.gradle.org/current/userguide/comman
 
 You can do `./gradlew --profile` or `./gradlew clean build --profile`. On Android you can do `./gradlew assembleDebug --profile`.
 
+### gradle-profiler
+
+https://github.com/gradle/gradle-profiler
+
+Example of how to use it: https://adambennett.dev/2020/08/disabling-jetifier/
+
 ## Daemon
 
 https://docs.gradle.org/current/userguide/gradle_daemon.html
