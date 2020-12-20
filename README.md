@@ -218,6 +218,8 @@ brew upgrade
 brew cleanup
 ```
 
+Stop certain formulae from being updated: `brew pin <formula>`. To allow that formulae to update again do: `brew unpin <formula>`.
+
 ## Fix `zsh: command not found: yarn`
 
 Run `brew doctor`. If you see:
