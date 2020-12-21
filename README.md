@@ -394,6 +394,13 @@ About `--profile` on the [docs](https://docs.gradle.org/current/userguide/comman
 
 You can do `./gradlew --profile` or `./gradlew clean build --profile`. On Android you can do `./gradlew assembleDebug --profile`.
 
+Examples:
+
+```
+./gradlew --profile --offline --rerun-tasks assembleDebug
+./gradlew --profile --offline --rerun-tasks --max-workers=4 assembleDebug
+```
+
 ### gradle-profiler
 
 https://github.com/gradle/gradle-profiler
