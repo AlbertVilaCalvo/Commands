@@ -386,6 +386,10 @@ find . -type d -name ".idea"
 find . -type d -name ".idea" -exec rm -rf {} +
 ```
 
+## Performance
+
+https://docs.gradle.org/nightly/userguide/performance.html
+
 ## Profile
 
 About `--profile` on the [docs](https://docs.gradle.org/current/userguide/command_line_interface.html#sec:command_line_performance):
