@@ -132,11 +132,11 @@ If you see `^M` run `sed -i.bak $'s/\r//' filename` (with backup) or `sed -i '' 
 
 [source](https://stackoverflow.com/a/21622340/4034572)
 
-### Rename master to main
+### Rename branch, eg master to main
 
-```
-git branch -M main
-```
+`git branch (-m | -M) [<oldbranch>] <newbranch>`.
+
+If you are in master: `git branch -M main`.
 
 
 # npm
